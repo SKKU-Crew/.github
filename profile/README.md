@@ -5,7 +5,7 @@ SWE3002-42 Team 7 프로젝트 리포지토리 모음.
 
 ## 리포지토리
 
-- [`skku-crew-frontend`](https://github.com/SKKU-Crew/skku-crew-frontend): Flutter Web 프론트엔드 (`:3000`)
+- [`skku-crew-frontend`](https://github.com/SKKU-Crew/skku-crew-frontend): Flutter Web 프론트엔드 (`:5000`)
 - [`skku-crew-backend`](https://github.com/SKKU-Crew/skku-crew-backend): Spring Boot 3.5.7 백엔드 + 인메모리 seed 데이터 + ChatGPT MCP 연동 (`:8080`)
 
 ## 로컬 실행
@@ -20,7 +20,7 @@ cd skku-crew-backend
 git clone https://github.com/SKKU-Crew/skku-crew-frontend.git
 cd skku-crew-frontend
 flutter pub get
-flutter run -d chrome --web-port 3000
+flutter run -d chrome --web-port 5000
 ```
 
 - Swagger UI: http://localhost:8080/swagger-ui.html (`Authorize`에 `demo-1` 입력)
